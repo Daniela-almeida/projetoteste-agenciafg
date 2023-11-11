@@ -96,7 +96,7 @@ header img {
 }
 
 .mobile-menu div {
-  width: 9vw;
+  width: 5vw;
   height: 2px;
   background: rgb(223, 74, 5);
   margin: 8px;
@@ -450,7 +450,7 @@ header img {
 }
 
 /* responsivo geral */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
   header {
     width: 100%;
     height: 12vh;
@@ -461,7 +461,7 @@ header img {
   }
   .text {
     position: absolute;
-    top: 38em;
+    top: 41em;
     left: 1em;
     width: auto;
     height: auto;
@@ -500,7 +500,7 @@ header img {
 
   .slide-content img {
     width: 100%;
-    height: 48vh;
+    height: 36vh;
     filter: saturate(0);
     opacity: 1;
   }
@@ -599,7 +599,324 @@ header img {
   }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1400px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  header {
+    width: 100%;
+    height: 15vh;
+  }
+  header img {
+    margin: 0 7em;
+    height: auto;
+  }
+  .text {
+    position: absolute;
+
+    top: 37em;
+    left: 26em;
+    width: 34vw;
+    height: auto;
+    font-size: 1.2rem;
+  }
+
+  #menu {
+    margin: -3em auto auto 31em;
+  }
+
+  #container-banner {
+    height: 70vh;
+    overflow: hidden;
+  }
+
+  .slider-container {
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .slider {
+    display: flex;
+    width: 300%;
+    transition: transform 0.7s ease-in-out;
+  }
+
+  .slide {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slide-content img {
+    width: 100%;
+    height: 70vh;
+    filter: saturate(0);
+    opacity: 1;
+    margin-top: 13em;
+  }
+  .slide .slide-content {
+    margin-top: -12em;
+  }
+
+  .image-container .text-img {
+    font-size: 2.2em;
+    left: -6em;
+  }
+
+  .slider-container button {
+    top: 64%;
+  }
+
+  .text-about {
+    margin-left: 4em;
+  }
+  #about {
+    margin-top: 1em;
+    /* margin-left: 1em; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .know-more {
+    width: 22vw;
+
+    margin-left: -3em;
+    margin-top: 10em;
+  }
+  .btn_final {
+    margin-left: 23em;
+    margin-top: 3em;
+    height: 7vh;
+    font-size: 0.8em;
+    padding: 1em;
+    width: 29vw;
+  }
+
+  .desc {
+    width: auto;
+    margin-top: 7em;
+  }
+  .container-team img {
+    display: block;
+    margin: 0 auto;
+    gap: 3em;
+    align-items: center;
+    width: 50vw;
+  }
+  .image-team img {
+    margin-bottom: -7em;
+  }
+  .text-2 {
+    margin-top: 1em;
+    margin-left: 4em;
+    min-width: auto;
+    /* width: auto; */
+    font-size: 1.2em;
+  }
+  .footer-container {
+    height: 22vh;
+    display: flex;
+    padding-left: 6em;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: -1em;
+    gap: 6em;
+  }
+  .address-text p,
+  .email-text,
+  .phone-text {
+    font-size: 0.8em;
+    width: auto;
+    margin-left: -5em;
+    margin-top: 1em;
+  }
+  .phone-text {
+    margin-right: 9em;
+  }
+  .btn-contact {
+    background-color: #e05012;
+    color: #fff;
+    padding: 12px 16px;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto 0 -2em;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out;
+    width: 14vw;
+  }
+  .hidden {
+    display: none;
+  }
+  .img-about {
+    width: 53vw;
+    margin-left: 5em;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  header {
+    width: 100%;
+    height: 15vh;
+  }
+  header img {
+    margin: 0 7em;
+    height: auto;
+  }
+  .text {
+    position: absolute;
+    top: 29em;
+    left: 35em;
+    width: 34vw;
+    height: auto;
+    font-size: 1.2rem;
+  }
+
+  #menu {
+    margin: -3em auto auto 15em;
+  }
+
+  #container-banner {
+    height: 70vh;
+    overflow: hidden;
+  }
+
+  .slider-container {
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .slider {
+    display: flex;
+    width: 300%;
+    transition: transform 0.7s ease-in-out;
+  }
+
+  .slide {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slide-content img {
+    width: 100%;
+    height: 70vh;
+    filter: saturate(0);
+    opacity: 1;
+    margin-top: 13em;
+  }
+  .slide .slide-content {
+    margin-top: -12em;
+  }
+
+  .image-container .text-img {
+    font-size: 2.2em;
+    left: -6em;
+  }
+
+  .slider-container button {
+    top: 64%;
+  }
+
+  .text-about {
+    margin-left: 9em;
+  }
+  #about {
+    margin-top: 1em;
+    /* margin-left: 1em; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .know-more {
+    width: 17vw;
+    margin-left: 14em;
+  }
+  .btn_final {
+    margin-left: 44em;
+    margin-top: 3em;
+    height: 7vh;
+    font-size: 0.8em;
+    padding: 1em;
+  }
+
+  .desc {
+    width: auto;
+    margin-top: 7em;
+  }
+  .container-team {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 3em;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 50vw;
+  }
+  .image-team img {
+    margin-bottom: -7em;
+  }
+  .text-2 {
+    margin-top: 2em;
+    margin-left: 7em;
+    min-width: auto;
+    width: auto;
+    font-size: 1.2em;
+  }
+  .footer-container {
+    height: 22vh;
+    display: flex;
+    padding-left: 6em;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: -1em;
+  }
+  .address-text p,
+  .email-text,
+  .phone-text {
+    font-size: 0.8em;
+    width: auto;
+    margin-left: -5em;
+    margin-top: 1em;
+  }
+  .phone-text {
+    margin-right: 9em;
+  }
+  .btn-contact {
+    background-color: #e05012;
+    color: #fff;
+    padding: 12px 16px;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto 0 -2em;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out;
+    width: 14vw;
+  }
+  .hidden {
+    display: none;
+  }
+  .img-about {
+    width: 32vw;
+    margin-left: 13em;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1500px) {
   header {
     width: 100%;
     height: 15vh;
